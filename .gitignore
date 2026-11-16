@@ -1,0 +1,35 @@
+# OS and editor files
+.DS_Store
+.Rhistory
+.RData
+.Rproj.user/
+
+# Old and exploratory scripts (not published)
+Archive/
+Sensitivity/
+Sensitivity_archive/
+
+# Data and results must never be committed
+Data/
+New_data/
+Results/
+Supplementary_Materials/
+*.rds
+*.RDS
+*.RData
+*.rda
+*.csv
+*.xlsx
+*.xls
+*.txt
+*.dta
+*.pdf
+*.png
+*.jpeg
+*.docx
+*.pptx
+
+# HPC job logs (PBS)
+*.o[0-9]*
+*.e[0-9]*
+Rplots.pdf
